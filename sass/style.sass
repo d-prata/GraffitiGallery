@@ -1,0 +1,110 @@
+@use 'variables'
+@use 'mixins'
+
+*
+    font-family: 'Josefin Sans'
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+body
+    background-color: variables.$bg-color
+    color: variables.$text-color
+
+    a
+        color: variables.$text-color
+        text-decoration: none
+        transition: .4s
+
+    ul
+        list-style: none
+
+.header
+    display: flex
+    justify-content: space-between
+    @include mixins.container
+
+    &-brand // .header-brand
+        color: variables.$secondary-color
+        font-size: 2.5rem
+
+    &-navbar // .header-navbar
+
+        ul
+            height: 100%
+            @include mixins.flex-center
+
+            li
+                margin: 0 2rem
+                text-transform: uppercase
+                font-size: .8rem
+
+            .active
+                color: variables.$secondary-color
+
+            a
+                &:hover
+                    color: variables.$secondary-color
+
+    &-social-media
+
+        ul
+            @include mixins.flex-center
+            height: 100%
+
+            li
+                margin: 0 1rem
+
+                a
+                    &:hover
+                        color: variables.$primary-color
+
+.gallery
+    @include mixins.flex-center
+    @include mixins.container
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 0
+
+    &-card // gallery-card
+        width: 31%
+        height: 400px
+        margin-bottom: 4%
+        @include mixins.flex-center
+        flex-direction: column
+        color: variables.$primary-color
+
+    #card-01
+        @include mixins.bg-img('image01.png')
+
+    #card-02
+        @include mixins.bg-img('image02.png')
+
+    #card-03
+        @include mixins.bg-img('image03.png')
+
+    #card-04
+        @include mixins.bg-img('image04.png')
+
+    #card-05
+        @include mixins.bg-img('image05.png')
+
+    #card-06
+        @include mixins.bg-img('image06.png')
+
+    #card-07
+        @include mixins.bg-img('image07.png')
+
+    #card-08
+        @include mixins.bg-img('image08.png')
+
+    #card-09
+        @include mixins.bg-img('image09.png')
+
+footer
+    text-align: center
+    padding-bottom: 2rem
+
+    span
+        font-weight: bold
+        color: variables.$secondary-color

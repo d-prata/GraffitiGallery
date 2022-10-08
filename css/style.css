@@ -1,0 +1,201 @@
+* {
+  font-family: "Josefin Sans";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #777;
+}
+body a {
+  color: #777;
+  text-decoration: none;
+  transition: 0.4s;
+}
+body ul {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+}
+.header-brand {
+  color: #0077ff;
+  font-size: 2.5rem;
+}
+.header-navbar ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-navbar ul li {
+  margin: 0 2rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.header-navbar ul .active {
+  color: #0077ff;
+}
+.header-navbar ul a:hover {
+  color: #0077ff;
+}
+.header-social-media ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.header-social-media ul li {
+  margin: 0 1rem;
+}
+.header-social-media ul li a:hover {
+  color: #fff;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1170px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+.gallery-card {
+  width: 31%;
+  height: 400px;
+  margin-bottom: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+.gallery #card-01 {
+  background-image: url("../assets/image01.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-01:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-02 {
+  background-image: url("../assets/image02.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-02:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-03 {
+  background-image: url("../assets/image03.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-03:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-04 {
+  background-image: url("../assets/image04.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-04:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-05 {
+  background-image: url("../assets/image05.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-05:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-06 {
+  background-image: url("../assets/image06.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-06:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-07 {
+  background-image: url("../assets/image07.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-07:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-08 {
+  background-image: url("../assets/image08.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-08:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+.gallery #card-09 {
+  background-image: url("../assets/image09.png");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+  transition: 0.6s;
+}
+.gallery #card-09:hover {
+  background-size: 110%;
+  filter: grayscale(0%);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+footer span {
+  font-weight: bold;
+  color: #0077ff;
+}
+
+/*# sourceMappingURL=style.css.map */
